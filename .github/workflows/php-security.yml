@@ -17,7 +17,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          tools: phpmd
+          tools: phpstan
 
       - name: Check PHP Syntax (Linter)
         run: |
@@ -38,7 +38,7 @@ jobs:
             echo "All PHP files passed syntax check successfully!"
           fi
 
-      - name: Run Security & Code Analysis
+      - name: Run Static Security & Code Analysis
         run: |
-          echo "Scanning PHP files for security and quality issues..."
-          phpmd . text unusedcode,codesize,cleancode --exclude "vendor" || echo "Scan finished with suggestions."
+          echo "Analyzing PHP codebase..."
+          phpstan analyse . --level=0 --no-progress || echo "Analysis completed with recommendations."
