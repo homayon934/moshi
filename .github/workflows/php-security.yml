@@ -20,5 +20,5 @@ jobs:
 
       - name: Run Security Scan
         run: |
-          composer global require enlightn/security-checker
-          ~/.config/composer/vendor/bin/security-checker scan .
+          curl -L https://github.com/enlightn/security-checker/releases/latest/download/security-checker.phar -o security-checker.phar
+          php security-checker.phar security:check composer.lock || php security-checker.phar security:check .
