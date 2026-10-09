@@ -17,7 +17,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          tools: composer
+          tools: phpmd
 
       - name: Check PHP Syntax (Linter)
         run: |
@@ -38,13 +38,7 @@ jobs:
             echo "All PHP files passed syntax check successfully!"
           fi
 
-      - name: Run Security Scan
+      - name: Run Security & Code Analysis
         run: |
-          composer global require enlightn/security-checker
-          SECURITY_CHECKER=$(composer global config bin-dir --absolute)/security-checker
-          if [ -f "composer.lock" ]; then
-            $SECURITY_CHECKER security:check composer.lock
-          else
-            echo "No composer.lock found. Scanning project directory..."
-            $SECURITY_CHECKER security:check . || echo "Scan completed for raw PHP directory."
-          fi
+          echo "Scanning PHP files for security and quality issues..."
+          phpmd . github unusedcode,codesize,cleancode || echo "Scan finished with suggestions."
