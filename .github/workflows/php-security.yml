@@ -17,6 +17,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
+          tools: composer
 
       - name: Check PHP Syntax (Linter)
         run: |
@@ -39,10 +40,11 @@ jobs:
 
       - name: Run Security Scan
         run: |
-          curl -L https://github.com/enlightn/security-checker/releases/latest/download/security-checker.phar -o security-checker.phar
+          composer global require enlightn/security-checker
+          SECURITY_CHECKER=$(composer global config bin-dir --absolute)/security-checker
           if [ -f "composer.lock" ]; then
-            php security-checker.phar security:check composer.lock
+            $SECURITY_CHECKER security:check composer.lock
           else
-            echo "No composer.lock found. Checking directory directly..."
-            php security-checker.phar security:check . || echo "Directory scan completed."
+            echo "No composer.lock found. Scanning project directory..."
+            $SECURITY_CHECKER security:check . || echo "Scan completed for raw PHP directory."
           fi
