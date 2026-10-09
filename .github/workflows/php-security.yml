@@ -41,4 +41,4 @@ jobs:
       - name: Run Static Security & Code Analysis
         run: |
           echo "Analyzing PHP codebase..."
-          phpstan analyse . --level=0 --no-progress || echo "Analysis completed with recommendations."
+          phpstan analyse . --level=0 --no-progress
