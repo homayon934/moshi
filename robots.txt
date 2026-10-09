@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /config.php
+Disallow: /uploads/index.php
+
+# پنل کاربری
+Disallow: /Claude outputs/
+
+# فایل‌های سیستمی
+Disallow: /*.php$
+Allow: /index.php
+Allow: /page.php
+Allow: /post.php
+
+# سایت‌مپ
+Sitemap: https://tum.ir/ai-chat/sitemap.xml
+
+# Crawl-delay برای Googlebot
+User-agent: Googlebot
+Crawl-delay: 1
+
+# محدودیت برای ربات‌های ناخواسته
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
