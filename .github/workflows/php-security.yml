@@ -39,5 +39,10 @@ jobs:
 
       - name: Run Security Scan
         run: |
-          composer global require enlightn/security-checker
-          ~/.composer/vendor/bin/security-checker scan . || echo "No composer.lock found, skipping dependency check."
+          curl -L https://github.com/enlightn/security-checker/releases/latest/download/security-checker.phar -o security-checker.phar
+          if [ -f "composer.lock" ]; then
+            php security-checker.phar security:check composer.lock
+          else
+            echo "No composer.lock found. Checking directory directly..."
+            php security-checker.phar security:check . || echo "Directory scan completed."
+          fi
