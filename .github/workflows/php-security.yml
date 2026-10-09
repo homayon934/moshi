@@ -41,4 +41,4 @@ jobs:
       - name: Run Security & Code Analysis
         run: |
           echo "Scanning PHP files for security and quality issues..."
-          phpmd . github unusedcode,codesize,cleancode || echo "Scan finished with suggestions."
+          phpmd . text unusedcode,codesize,cleancode --exclude "vendor" || echo "Scan finished with suggestions."
