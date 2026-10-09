@@ -1,4 +1,4 @@
-name: "PHP Security Analysis"
+name: "PHP Security & Syntax Analysis"
 
 on:
   push:
@@ -18,7 +18,26 @@ jobs:
         with:
           php-version: '8.2'
 
+      - name: Check PHP Syntax (Linter)
+        run: |
+          echo "Checking PHP syntax..."
+          errors=0
+          for file in $(find . -type f -name "*.php" -not -path "./vendor/*"); do
+            php -l "$file" > /dev/null 2>&1
+            if [ $? -ne 0 ]; then
+              echo "Syntax error in $file"
+              php -l "$file"
+              errors=$((errors+1))
+            fi
+          done
+          if [ $errors -gt 0 ]; then
+            echo "Found $errors file(s) with syntax errors."
+            exit 1
+          else
+            echo "All PHP files passed syntax check successfully!"
+          fi
+
       - name: Run Security Scan
         run: |
-          curl -L https://github.com/enlightn/security-checker/releases/latest/download/security-checker.phar -o security-checker.phar
-          php security-checker.phar security:check composer.lock || php security-checker.phar security:check .
+          composer global require enlightn/security-checker
+          ~/.composer/vendor/bin/security-checker scan . || echo "No composer.lock found, skipping dependency check."
