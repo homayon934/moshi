@@ -1,0 +1,227 @@
+[18-Sep-2026 01:57:08 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "!", expecting ")" in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:57:15 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "!", expecting ")" in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:58:07 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:58:09 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:58:10 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:58:10 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:59:47 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:59:51 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:59:51 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:59:52 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:59:53 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:59:53 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:59:54 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:59:54 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:59:56 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 01:59:56 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 02:01:24 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[18-Sep-2026 02:01:37 Asia/Tehran] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES) in /home/binbani1/tum.ir/01/config.php:41
+Stack trace:
+#0 /home/binbani1/tum.ir/01/config.php(41): PDO->__construct()
+#1 /home/binbani1/tum.ir/01/admin/_bootstrap.php(13): aichat_connect()
+#2 /home/binbani1/tum.ir/01/admin/settings.php(2): require_once('/home/binbani1/...')
+#3 {main}
+  thrown in /home/binbani1/tum.ir/01/config.php on line 41
+[23-Sep-2026 09:05:29 Asia/Tehran] aichat admin ensure_schema error: Call to undefined function aichat_ensure_schema()
+[23-Sep-2026 09:06:03 Asia/Tehran] aichat admin ensure_schema error: Call to undefined function aichat_ensure_schema()
+[23-Sep-2026 09:37:14 Asia/Tehran] DB connection failed: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES)
+[23-Sep-2026 09:37:21 Asia/Tehran] DB connection failed: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES)
+[23-Sep-2026 09:37:24 Asia/Tehran] DB connection failed: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES)
+[23-Sep-2026 09:37:25 Asia/Tehran] DB connection failed: SQLSTATE[HY000] [1045] Access denied for user 'binbani1_tum01'@'localhost' (using password: YES)
+[23-Sep-2026 14:24:37 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'INSERT INTO' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 108
+[23-Sep-2026 14:24:37 Asia/Tehran] PHP Warning:  PDO::query(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'SELECT' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 142
+[23-Sep-2026 14:24:37 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php:142
+Stack trace:
+#0 /home/binbani1/tum.ir/ai-chat/admin/site_settings.php(37): site_settings()
+#1 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 142
+[23-Sep-2026 14:49:22 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'INSERT INTO' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 108
+[23-Sep-2026 14:49:22 Asia/Tehran] PHP Warning:  PDO::query(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'SELECT' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 142
+[23-Sep-2026 14:49:22 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php:142
+Stack trace:
+#0 /home/binbani1/tum.ir/ai-chat/admin/site_settings.php(37): site_settings()
+#1 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 142
+[23-Sep-2026 14:55:13 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'INSERT INTO' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 108
+[23-Sep-2026 14:55:13 Asia/Tehran] PHP Warning:  PDO::query(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'SELECT' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 142
+[23-Sep-2026 14:55:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php:142
+Stack trace:
+#0 /home/binbani1/tum.ir/ai-chat/admin/site_settings.php(37): site_settings()
+#1 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 142
+[23-Sep-2026 14:55:18 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'INSERT INTO' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 108
+[23-Sep-2026 14:55:18 Asia/Tehran] PHP Warning:  PDO::query(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'SELECT' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 142
+[23-Sep-2026 14:55:18 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php:142
+Stack trace:
+#0 /home/binbani1/tum.ir/ai-chat/admin/site_settings.php(37): site_settings()
+#1 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 142
+[23-Sep-2026 14:57:35 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'INSERT INTO' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 107
+[23-Sep-2026 14:57:35 Asia/Tehran] PHP Warning:  PDO::query(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'SELECT' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php:141
+Stack trace:
+#0 /home/binbani1/tum.ir/ai-chat/admin/site_settings.php(37): site_settings()
+#1 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:38 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'INSERT INTO' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 107
+[23-Sep-2026 14:57:38 Asia/Tehran] PHP Warning:  PDO::query(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'SELECT' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:38 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php:141
+Stack trace:
+#0 /home/binbani1/tum.ir/ai-chat/admin/site_settings.php(37): site_settings()
+#1 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:39 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'INSERT INTO' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 107
+[23-Sep-2026 14:57:39 Asia/Tehran] PHP Warning:  PDO::query(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'SELECT' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php:141
+Stack trace:
+#0 /home/binbani1/tum.ir/ai-chat/admin/site_settings.php(37): site_settings()
+#1 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:40 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'INSERT INTO' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 107
+[23-Sep-2026 14:57:40 Asia/Tehran] PHP Warning:  PDO::query(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'SELECT' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:40 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php:141
+Stack trace:
+#0 /home/binbani1/tum.ir/ai-chat/admin/site_settings.php(37): site_settings()
+#1 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:41 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'INSERT INTO' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 107
+[23-Sep-2026 14:57:41 Asia/Tehran] PHP Warning:  PDO::query(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'SELECT' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:41 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php:141
+Stack trace:
+#0 /home/binbani1/tum.ir/ai-chat/admin/site_settings.php(37): site_settings()
+#1 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:42 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'INSERT INTO' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 107
+[23-Sep-2026 14:57:42 Asia/Tehran] PHP Warning:  PDO::query(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'key' in 'SELECT' in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 14:57:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php:141
+Stack trace:
+#0 /home/binbani1/tum.ir/ai-chat/admin/site_settings.php(37): site_settings()
+#1 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/includes/site_lib.php on line 141
+[23-Sep-2026 17:48:09 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10'' at line 1 in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 526
+[23-Sep-2026 18:03:39 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10'' at line 1 in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 526
+[23-Sep-2026 18:18:02 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10'' at line 1 in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 526
+[23-Sep-2026 18:41:43 Asia/Tehran] PHP Warning:  PDO::exec(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '09124381528' for key 'uniq_phone' in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 146
+[23-Sep-2026 18:49:01 Asia/Tehran] PHP Warning:  PDO::exec(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '09124381528' for key 'uniq_phone' in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 146
+[23-Sep-2026 18:49:20 Asia/Tehran] PHP Warning:  PDO::exec(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '09124381528' for key 'uniq_phone' in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 146
+[23-Sep-2026 18:49:25 Asia/Tehran] PHP Warning:  PDO::exec(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '09124381528' for key 'uniq_phone' in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 146
+[23-Sep-2026 18:49:36 Asia/Tehran] PHP Warning:  PDO::exec(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '09124381528' for key 'uniq_phone' in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 146
+[23-Sep-2026 18:50:03 Asia/Tehran] PHP Warning:  PDO::exec(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '09124381528' for key 'uniq_phone' in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 146
+[23-Sep-2026 18:50:07 Asia/Tehran] PHP Warning:  PDO::exec(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '09124381528' for key 'uniq_phone' in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 146
+[23-Sep-2026 18:50:07 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10'' at line 1 in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 832
+[23-Sep-2026 18:50:23 Asia/Tehran] PHP Warning:  PDO::exec(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '09124381528' for key 'uniq_phone' in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 146
+[23-Sep-2026 18:53:48 Asia/Tehran] PHP Warning:  PDO::exec(): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '09124381528' for key 'uniq_phone' in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 146
+[23-Sep-2026 19:34:46 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10'' at line 1 in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 841
+[23-Sep-2026 19:35:04 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10'' at line 1 in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 841
+[23-Sep-2026 20:52:32 Asia/Tehran] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10'' at line 1 in /home/binbani1/tum.ir/ai-chat/includes/saas_lib.php on line 1002
+[26-Sep-2026 02:15:45 Asia/Tehran] PHP Warning:  Undefined variable $note_input in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:15:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/binbani1/tum.ir/ai-chat/admin/plans.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:16:08 Asia/Tehran] PHP Warning:  Undefined variable $note_input in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:16:08 Asia/Tehran] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/binbani1/tum.ir/ai-chat/admin/plans.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:16:42 Asia/Tehran] PHP Warning:  Undefined variable $note_input in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:16:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/binbani1/tum.ir/ai-chat/admin/plans.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:16:44 Asia/Tehran] PHP Warning:  Undefined variable $note_input in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:16:44 Asia/Tehran] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/binbani1/tum.ir/ai-chat/admin/plans.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:18:17 Asia/Tehran] PHP Warning:  Undefined variable $note_input in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:18:17 Asia/Tehran] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/binbani1/tum.ir/ai-chat/admin/plans.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:29:28 Asia/Tehran] PHP Warning:  Undefined variable $note_input in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:29:28 Asia/Tehran] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/binbani1/tum.ir/ai-chat/admin/plans.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:31:09 Asia/Tehran] PHP Warning:  Undefined variable $note_input in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:31:09 Asia/Tehran] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/binbani1/tum.ir/ai-chat/admin/plans.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:35:23 Asia/Tehran] PHP Warning:  Undefined variable $note_input in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 02:35:23 Asia/Tehran] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/binbani1/tum.ir/ai-chat/admin/plans.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 13:06:08 Asia/Tehran] PHP Warning:  Undefined variable $note_input in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154
+[26-Sep-2026 13:06:08 Asia/Tehran] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/binbani1/tum.ir/ai-chat/admin/plans.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/binbani1/tum.ir/ai-chat/admin/plans.php on line 154

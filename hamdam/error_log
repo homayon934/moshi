@@ -1,0 +1,16 @@
+[25-Sep-2026 15:40:27 Asia/Tehran] [AI] API error: The requested service or feature is not currently available. Please contact support at support@avalai.ir and include the request ID 01a0d879-5c41-7783-8490-3a2ee752ebec in your email. | {
+  "error": {
+    "message": "The requested service or feature is not currently available. Please contact support at support@avalai.ir and include the request ID 01a0d879-5c41-7783-8490-3a2ee752ebec in your email.",
+    "type": "service_not_available",
+    "param": null,
+    "code": "service_not_available",
+    "solution": "This service or feature is not currently implemented or available. Please try using an alternative endpoint or contact support at support@avalai.ir for assistance.",
+    "re
+[25-Sep-2026 15:40:27 Asia/Tehran] [AI] all providers failed: خطا از سرویس AI: The requested service or feature is not currently available. Please contact support at support@avalai.ir and include the request ID 01a0d879-5c41-7783-8490-3a2ee752ebec in your email.
+[25-Sep-2026 15:40:27 Asia/Tehran] [HD] AI failed bot=1 خطا از سرویس AI: The requested service or feature is not currently available. Please contact support at support@avalai.ir and include the request ID 01a0d879-5c41-7783-8490-3a2ee752ebec in your email.
+[26-Sep-2026 16:12:56 Asia/Tehran] [HD] tts: 404 {
+  "error": {
+    "message": "model gpt-4o-mini-tts has been deprecated. Please contact support at support@avalai.ir and include the request ID 01a0ddbd-74b7-75d1-8128-b23b5f613245 in your email if y
+[26-Sep-2026 16:13:03 Asia/Tehran] [HD] tts: 404 {
+  "error": {
+    "message": "model gpt-4o-mini-tts has been deprecated. Please contact support at support@avalai.ir and include the request ID 01a0ddbd-921a-77b2-b627-6490a6011859 in your email if y
